@@ -15,7 +15,8 @@ class Transfer
   end
   
   def reject_tansfer
-    if valid? = false
+    
+
     
   
   def execute_transaction
