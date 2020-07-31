@@ -16,7 +16,9 @@ class Transfer
   
   def execute_transaction
     if valid? && sender.balance > amount && self.status = "pending"
-      @status = rejected
+      sender.balance -= amount
+      receiver.balance += amount
+      
       
     
 
