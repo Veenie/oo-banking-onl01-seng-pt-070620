@@ -15,6 +15,9 @@ class Transfer
   end
   
   def execute_transaction
+    if transfer.valid? = false
+      @status = rejected
+      
     
 
     
